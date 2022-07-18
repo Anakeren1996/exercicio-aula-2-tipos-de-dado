@@ -11,8 +11,10 @@ public class Main {
         byte b2 = 20;
 
         short s1 = 20000;
+        // ultrapassa o limite máximo do short
         //short s2 = 40000;
 
+        // fere o limite inferior
         //int i1 = -10000000000;
         int i2 = 28500;
 
@@ -26,6 +28,7 @@ public class Main {
         double d2 = 99.04D;
 
         char c1 = 'W';
+        //  passa o limite de caracter
         //char c2 = 'Tw';
         char c3 = '\u0057';
 
@@ -33,6 +36,7 @@ public class Main {
         String st2 = "Cicrano";
         String st3 = "ag dgb se  se et t KNBJBJBB &*¨&%& 75894389";
 
+        // existe um tipo de dado específico para data
         //String dt1 = "09/02/1981";
 
         boolean bo1 = true;
